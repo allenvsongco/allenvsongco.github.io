@@ -125,7 +125,9 @@ a {
   background: $primary !important;
   background-color: $primary !important;
 }
-
+.CTA-Main .btn:hover {
+  color: white !important;
+}
 .btn-secondary {
   color: white;
   background: $secondary;
