@@ -26,7 +26,7 @@ a {
       rgba(58, 168, 161, 0.7) 50.45%,
       rgba(193, 205, 94, 0.7) 100%
     ),
-    url(".https://upskillingpng.com/images/page-banners/pen.png");
+    url("https://upskillingpng.com/images/page-banners/pen.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -52,7 +52,7 @@ a {
       rgba(58, 168, 161, 0.7) 50.45%,
       rgba(193, 205, 94, 0.7) 100%
     ),
-    url(".https://upskillingpng.com/images/page-banners/our-vision.png");
+    url("https://upskillingpng.com/images/page-banners/our-vision.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -63,7 +63,7 @@ a {
       rgba(58, 168, 161, 0.7) 50.45%,
       rgba(193, 205, 94, 0.7) 100%
     ),
-    url(".https://upskillingpng.com/images/page-banners/tos.png");
+    url("https://upskillingpng.com/images/page-banners/tos.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -74,13 +74,13 @@ a {
       rgba(58, 168, 161, 0.7) 50.45%,
       rgba(193, 205, 94, 0.7) 100%
     ),
-    url(".https://upskillingpng.com/images/page-banners/partner-bg.png");
+    url("https://upskillingpng.com/images/page-banners/partner-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 .bg-overlay-img {
   height: 900px;
-  background: url(".https://upskillingpng.com/images/cta-device.png");
+  background: url("https://upskillingpng.com/images/cta-device.png");
   background-repeat: no-repeat;
   background-position: top right;
   background-size: contain;
@@ -280,7 +280,7 @@ $max-width: 1400px;
       rgba(58, 168, 161, 0.7) 50.45%,
       rgba(193, 205, 94, 0.7) 100%
     ),
-    url(".https://upskillingpng.com/images/page-banners/page-banner-1.png");
+    url("https://upskillingpng.com/images/page-banners/page-banner-1.png");
   @include media-breakpoint-down(md) {
     background: linear-gradient(
         90deg,
@@ -288,7 +288,7 @@ $max-width: 1400px;
         rgba(58, 168, 161, 0.7) 50.45%,
         rgba(193, 205, 94, 0.7) 100%
       ),
-      url(".https://upskillingpng.com/images/page-banners/page-banner-1-sm.png");
+      url("https://upskillingpng.com/images/page-banners/page-banner-1-sm.png");
   }
 }
 
@@ -299,7 +299,7 @@ $max-width: 1400px;
       rgba(58, 168, 161, 0.7) 50.45%,
       rgba(193, 205, 94, 0.7) 100%
     ),
-    url(".https://upskillingpng.com/images/page-banners/page-banner-2.png");
+    url("https://upskillingpng.com/images/page-banners/page-banner-2.png");
   @include media-breakpoint-down(md) {
     background: linear-gradient(
         90deg,
@@ -307,7 +307,7 @@ $max-width: 1400px;
         rgba(58, 168, 161, 0.7) 50.45%,
         rgba(193, 205, 94, 0.7) 100%
       ),
-      url(".https://upskillingpng.com/images/page-banners/page-banner-2-sm.png");
+      url("https://upskillingpng.com/images/page-banners/page-banner-2-sm.png");
   }
 }
 
@@ -801,7 +801,7 @@ $max-width: 1400px;
         rgba(58, 168, 161, 0.7) 50.45%,
         rgba(193, 205, 94, 0.7) 100%
       ),
-      url(".https://upskillingpng.com/images/page-banners/signup.png");
+      url("https://upskillingpng.com/images/page-banners/signup.png");
     width: 50%;
     padding: 96px;
     color: #ffffff;
@@ -829,7 +829,7 @@ $max-width: 1400px;
         rgba(58, 168, 161, 0.7) 50.45%,
         rgba(193, 205, 94, 0.7) 100%
       ),
-      url(".https://upskillingpng.com/images/page-banners/login.png");
+      url("https://upskillingpng.com/images/page-banners/login.png");
     width: 50%;
     padding: 96px;
     color: #ffffff;
@@ -844,7 +844,7 @@ $max-width: 1400px;
         rgba(58, 168, 161, 0.7) 50.45%,
         rgba(193, 205, 94, 0.7) 100%
       ),
-      url(".https://upskillingpng.com/images/page-banners/forgot-pass.png");
+      url("https://upskillingpng.com/images/page-banners/forgot-pass.png");
     width: 50%;
     padding: 96px;
     color: #ffffff;
