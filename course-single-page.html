@@ -144,7 +144,7 @@
                 <div class="row course-module-item">
                     <div class="col-1">
                         <div class="h-100 d-flex flex-column align-items-center justify-content-center">
-                            <span class="course-week mb-2">Week</span>
+                            <span class="course-week mb-2">MODULE</span>
                             <h5 class="course-week-num"></h5>
                         </div>
                     </div>
@@ -297,9 +297,9 @@
                     description: "This course discusses the major trends in technology that are taking the world by storm, from the three key factors that contributed to their rapid popularity to the future implications these trends possess today. We will begin this informative and innovative journey by identifying current technological trends and the factors that led to their instant popularity. Further into the discussion, we will discuss the effects of these trends on an economic and societal scale, as well as results that are expected to occur in the future.",
                     courseOutline: ["identify emerging trends in technology", "recognize the three key factors that determine these trends’ popularity", "discuss the effects of these emerging trends on the global economy and society", "formulate possible effects of these emerging trends in the future"],
                     courseContent: {
-                        "Module 1": " Emerging Technology Trends That Are Shaping the World",
-                        "Module 2": "What makes it a technology trend?",
-                        "Module 3": "The Impact of Tech Today and Tomorrow"
+                        "1": "Emerging Technology Trends That Are Shaping the World",
+                        "2": "What makes it a technology trend?",
+                        "3": "The Impact of Tech Today and Tomorrow"
                     },
                     image: "https://coursebank.ph/asset-v1:Coursebank+FSA001+2023_Q3+type@asset+block@Major_Technology_Trends.jpg",
                     instructors: ["Mary Ann Saldo"],
@@ -366,7 +366,7 @@
 
                 weekNum.textContent = week;
                 weekTitle.textContent = courseContent[week];
-                weekDescription.textContent = description; // You can replace this with week-specific descriptions if available
+                // weekDescription.textContent = description; // You can replace this with week-specific descriptions if available
             });
 
             // Render course details
