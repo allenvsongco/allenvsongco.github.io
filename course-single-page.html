@@ -358,6 +358,7 @@
             }
 
             const courseModules = document.querySelectorAll(".course-module-item");
+
             Object.keys(courseContent).forEach((week, index) => {
                 const courseModule = courseModules[index];
                 const weekNum = courseModule.querySelector(".course-week-num");
@@ -365,8 +366,10 @@
                 const weekDescription = courseModule.querySelector("p");
 
                 weekNum.textContent = week;
-                weekTitle.textContent = courseContent[week];
-                // weekDescription.textContent = description; // You can replace this with week-specific descriptions if available
+                weekTitle.textContent = courseContent[week]; // Use week as the key to get the title for this week
+                // If you have week-specific descriptions, you can update them here as well
+                // For example, if you have descriptions for each week in an array, you can use week as the index to get the description
+                // weekDescription.textContent = descriptions[index];
             });
 
             // Render course details
